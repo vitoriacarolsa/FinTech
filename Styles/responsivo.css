@@ -1,0 +1,126 @@
+/* Estilos específicos para PC (telas grandes) */
+@media (min-width: 768px) {
+    .btn {
+        width: 180px;
+        margin-right: 75px;
+        position: relative;
+        top: -52px;
+    }
+
+    .navbar-nav .nav-item {
+        font-size: 18px;
+        margin: 0 20px;
+        position: relative;
+        font-family: 'Outfit', sans-serif;
+        text-align: center;
+        
+    }
+
+    .text1 {
+        width: 600px;
+        text-align: center;
+        margin-right: 60px;
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
+        right: -70px;
+        font-size: 40px;
+        font-family: 'Secular One', sans-serif;
+    }
+
+    .ft1 {
+        float: right;
+        width: 750px;
+        max-width: 100%;
+        position: relative;
+        left: -70px;
+        margin-top: -340px;
+    }
+
+    .navbar-brand {
+        font-size: 30px;
+        font-weight: bolder;
+        position: relative;
+        right: -100px;
+    }
+
+    .subtitulo {
+        text-align: center;
+        overflow: hidden;
+        margin-right: 60px;
+        margin-top: 40px;
+        text-align: center;
+        position: relative;
+        right: 400px;
+        font-size: 24px;
+        font-family: 'Sarabun', sans-serif;
+    }
+}
+
+@media (max-width: 576px) {
+    .beneficios-text {
+        margin-top: 20px;
+        padding: 0 10px;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    .titulo,
+    .titulo-motivo,
+    .motivo {
+        text-align: center;
+        font-weight: bold;
+    }
+    .motivo{
+        font-family: 'Poppins', sans-serif;
+    }
+}
+
+
+@media (max-width: 992px) {
+
+    .text1,
+    .subtitulo,
+    .ft1,
+    .email-form,
+    .user,
+    .beneficios-text,
+    .recursos {
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .ft1 {
+        margin-top: 0;
+    }
+
+    .row {
+        flex-direction: column;
+    }
+
+    .beneficios-text {
+        margin-top: 20px;
+    }
+}
+
+/* Estilos para telas pequenas (telefones) */
+@media (max-width: 576px) {
+    .navbar-nav {
+        margin-top: 20px;
+    }
+
+    .navbar-brand {
+        font-size: 20px;
+    }
+
+    .navbar-toggler {
+        font-size: 1rem;
+    }
+
+    .navbar-nav .nav-item {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+}

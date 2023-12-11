@@ -1,0 +1,192 @@
+body {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+input[type="email"] {
+    padding: 10px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+.email-form {
+    margin-top: 40px;
+    position: relative;
+    right: -10%;
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    position: relative;
+    right: 7%;
+    color:#0802A3;
+    font-weight: bold;
+}
+
+.fa-user {
+    margin-right: -2px;
+    margin-top: -15px;
+
+}
+
+.nav-item {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    color: black;
+    transition: color 0.3s ease;
+}
+
+.nav-item:hover {
+    color: blue;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 2px;
+    background-color: blue;
+    transform: scaleX(0);
+    transform-origin: bottom right;
+    transition: transform 0.3s ease;
+}
+
+.nav-item:hover::after {
+    transform: scaleX(1);
+}
+
+.navbar-nav .nav-link {
+    font-weight: bold;
+   
+}
+
+.beneficios-img {
+    width: 60px;
+    position: relative;
+    margin-top: 260px;
+    background-color: #FDF7E4;
+
+}
+
+.titulo-beneficios, 
+.subtitulo-beneficios{
+    font-family: 'Secular One', sans-serif;
+}
+
+.titulo-motivo {
+    font-weight: bold;
+    color: black;
+    font-family: 'Sarabun', sans-serif;
+}
+
+
+.beneficios-text {
+    margin: 20px 0;
+    margin-top: -550px;
+    position: relative;
+    text-align: right;
+    margin-right: -50px;
+    overflow-x: hidden;
+    
+}
+
+.titulo-motivo {
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+.motivo {
+    font-size: 17px;
+    margin-top: -15px;
+
+}
+
+.recursos {
+    margin-top: 130px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Secular One', sans-serif;
+}
+
+.card-img-top {
+    height: 200px;
+    width: 100%;
+    object-fit: contain;
+}
+
+.card-title {
+    font-weight: bolder;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Sarabun', sans-serif;
+}
+.card-text{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.card-body {
+    height: 162px;
+}
+
+.row {
+    margin-left: -5px;
+    margin-right: -5px;
+}
+
+.navbar-toggler {
+    font-size: 1.5rem;
+}
+
+.fa-solid {
+    position: relative;
+    left: -7px;
+    color:#1640D6;
+}
+
+.btn{
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 12px;
+}
+
+.card:hover {
+  background-color: #DDE6ED;
+  cursor: pointer;
+}
+
+.rodape{
+   margin-top: 80px;
+   font-family: 'Barlow', sans-serif;
+   font-weight: bold;
+   
+}
